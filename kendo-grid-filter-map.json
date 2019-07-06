@@ -7,9 +7,9 @@
   "lt": "$lt",
   "lte": "$lte",
   "neq": "$ne",
-  "contains": "$iLike",
-  "doesnotcontain": "$notILike",
-  "endswith": "$iLike",
+  "contains": "$like",
+  "doesnotcontain": "$notlike",
+  "endswith": "$like",
   "isempty": "",
   "isnotempty": "$ne",
   "startswith": "$iLike"
